@@ -1,0 +1,77 @@
+/* ตั้งค่าพื้นหลังและจัดตำแหน่ง */
+.login-container {
+    background-color: #28a745; /* สีพื้นหลัง */
+    height: 100vh; /* เต็มหน้าจอ */
+    display: flex;
+    min-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    background-color: white; /* สีพื้นหลังของฟอร์ม */
+    padding: 50px; /* ระยะห่างภายในฟอร์ม */
+    border-radius: 20px; /* ความโค้ง */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* เงา */
+    width: 600px; /* ความกว้างของฟอร์ม */
+    max-width: 90%; /* ป้องกันการล้นหน้าจอเล็ก */
+  }
+  
+  /* ส่วนของ header */
+  .login-header .logo {
+    width: 250px; /* ขนาดโลโก้ */
+    height: 150px; /* ขนาดโลโก้ */
+    
+    margin: auto;
+  }
+  
+  .login-header h3 {
+    color: #28a745; /* สีของข้อความ */
+    font-size: 28px; /* ขนาดใหญ่ขึ้น */
+    font-weight: bold;
+    margin-top: 20px; /* ระยะห่างด้านบน */
+  }
+  
+  .login-header p {
+    color: #6c757d;
+    font-size: 16px; /* ขยายขนาดข้อความ */
+    margin-bottom: 30px; /* ระยะห่างจากข้อความถัดไป */
+  }
+  
+  /* ปรับ input box */
+  .form-control {
+    border-radius: 15px; /* ความโค้งของ input */
+    padding: 15px; /* เพิ่มพื้นที่ภายใน */
+    font-size: 16px; /* ขยายขนาดตัวอักษร */
+  }
+  
+  .form-check-label {
+    font-size: 14px; /* ขนาดตัวอักษร */
+    color: #6c757d;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 15px; /* ความโค้งของปุ่ม */
+    padding: 15px 20px; /* ระยะห่างภายใน */
+    font-size: 18px; /* ขยายขนาดตัวอักษร */
+    font-weight: bold; /* ทำให้ตัวอักษรหนา */
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* สีเข้มขึ้นเมื่อ hover */
+  }
+  
+  .forgot-password-link {
+    font-size: 14px; /* ขนาดตัวอักษร */
+    color: #6c757d;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  

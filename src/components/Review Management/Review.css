@@ -1,0 +1,27 @@
+.review-container {
+    width: 1544px;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+
+    border-radius: 15px;
+    font-family: "Prompt", sans-serif;
+  }
+
+  
+  th {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+.review-container .btn {
+    width: 148px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: semi-bold;
+    margin: 0.5rem;
+  }
